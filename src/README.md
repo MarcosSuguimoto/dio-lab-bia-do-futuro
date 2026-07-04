@@ -1,12 +1,12 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
+A lista de arquivos utilizados no app e o código fonte estão no diretório poupa20. O arquivo com o código do app é o [app.py](app.py)
 
 ## Estrutura Sugerida
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
+├── app.py              # Aplicação principal (Streamlit)
 ├── agente.py           # Lógica do agente
 ├── config.py           # Configurações (API keys, etc.)
 └── requirements.txt    # Dependências
@@ -16,8 +16,7 @@ src/
 
 ```
 streamlit
-openai
-python-dotenv
+ollama
 ```
 
 ## Como Rodar
