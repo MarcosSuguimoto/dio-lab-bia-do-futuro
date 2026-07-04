@@ -5,7 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-O agente "resolve" a falta de hábito de poupador e a barreira de entrada na educação financeira para jovens de baixa renda (como jovens aprendizes).
+O agente "resolve" a falta de hábito de poupar dinheiro e a barreira de entrada na educação financeira para jovens de baixa renda (como jovens aprendizes).
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
