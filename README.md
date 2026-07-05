@@ -9,7 +9,7 @@ O Poupa20 é um assistente financeiro inteligente, educativo e empático desenvo
 
 ---
 
-## O Que Você vai encontrar
+## O que você vai encontrar
 
 ### 1. Documentação do Agente
 
