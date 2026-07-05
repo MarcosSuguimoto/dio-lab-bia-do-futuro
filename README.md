@@ -18,12 +18,12 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 ### 1. Documentação do Agente
 
-Defina **o que** seu agente faz e **como** ele funciona:
+Definição do agente o que ele faz e **como** ele funciona:
 
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
+- **Caso de Uso:** Qual problema financeiro ele resolve
+- **Persona e Tom de Voz:** Como o agente se comporta e se comunica
 - **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
+- **Segurança:** Como evitar alucinações e garantir respostas confiáveis
 
 📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
 
@@ -31,7 +31,7 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
+Os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar o agente:
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
@@ -40,7 +40,6 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 | `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
 | `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
@@ -48,7 +47,7 @@ Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 ### 3. Prompts do Agente
 
-Documente os prompts que definem o comportamento do seu agente:
+Documentação dos prompts que definem o comportamento do agente:
 
 - **System Prompt:** Instruções gerais de comportamento e restrições
 - **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
@@ -60,9 +59,9 @@ Documente os prompts que definem o comportamento do seu agente:
 
 ### 4. Aplicação Funcional
 
-Desenvolva um **protótipo funcional** do seu agente:
+**protótipo funcional** do agente:
 
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
+- Chatbot interativo (Streamlit)
 - Integração com LLM (via API ou modelo local)
 - Conexão com a base de conhecimento
 
@@ -72,7 +71,7 @@ Desenvolva um **protótipo funcional** do seu agente:
 
 ### 5. Avaliação e Métricas
 
-Descreva como você avalia a qualidade do seu agente:
+Descrição de como foi avaliada a qualidade do agente:
 
 **Métricas Sugeridas:**
 - Precisão/assertividade das respostas
@@ -85,11 +84,19 @@ Descreva como você avalia a qualidade do seu agente:
 
 ### 6. Pitch
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
+**pitch de 3 minutos** (estilo elevador) apresentando:
 
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
+**Qual problema o agente resolve?**
+
+R: O Poupa20 ataca a falta de hábito de poupança e a barreira de entrada no mundo financeiro para jovens em início de carreira (como jovens aprendizes). Esse público costuma achar que investimentos são apenas para quem tem muito dinheiro ou que o vocabulário financeiro ("financês") é complexo demais. Ao focar em metas extremamente acessíveis e tangíveis, o agente resolve a procrastinação financeira e ajuda a construir disciplina desde cedo.
+
+**Como ele funciona na prática?**
+
+R: O Poupa20 funciona através de um chat inteligente no Streamlit onde o jovem conversa de forma simples e natural; nos bastidores, a inteligência artificial consulta planilhas reais de transações e perfis para calcular gastos, checar o progresso das metas e dar orientações financeiras precisas e seguras.
+
+**Por que essa solução é inovadora?**
+
+R: A inovação está em unir uma linguagem jovem e empática à segurança total de dados, focando no poder dos micro-hábitos (como poupar R$ 20,00) e conectando a economia de dinheiro diretamente com a realização de sonhos profissionais práticos, como um curso ou um notebook.
 
 📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
 
@@ -140,10 +147,3 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 
 ---
 
-## Dicas Finais
-
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
