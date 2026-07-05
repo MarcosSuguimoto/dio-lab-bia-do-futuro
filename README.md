@@ -79,7 +79,7 @@ Descrição de como foi avaliada a qualidade do agente:
 
 ### 6. Pitch
 
-**pitch de 3 minutos** (estilo elevador) apresentando:
+**pitch de 4 minutos** (estilo elevador) apresentando:
 
 **Qual problema o agente resolve?**
 
