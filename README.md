@@ -1,13 +1,8 @@
 # 🤖 Agente Financeiro Inteligente com IA Generativa
 
-## Contexto
+## Contexto do Assistente (Poupa20)
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
-
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
+O Poupa20 é um assistente financeiro inteligente, educativo e empático desenvolvido para atuar como um "mentor parceiro" de jovens aprendizes e profissionais em início de carreira. Em vez de focar em grandes investimentos ou usar um vocabulário técnico complexo ("financês"), o agente é projetado para ajudar o usuário a construir a disciplina dos micro-hábitos, incentivando a economia de pequenas quantias mensais (como R$ 20,00) com foco em objetivos profissionais tangíveis, como a compra de um notebook ou o custeio de um curso técnico, uma certificação etc.
 
 > [!TIP]
 > Na pasta [`examples/`](./examples/) você encontra referências da implementação.
@@ -31,7 +26,7 @@ Definição do agente o que ele faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar o agente:
+Os **dados mockados** disponíveis na pasta [`data/`](./data/) foram utilizados para alimentar o agente:
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
