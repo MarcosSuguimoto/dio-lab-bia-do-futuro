@@ -2,6 +2,6 @@
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+> (Google Drive)
 
-[Link do vídeo]
+[[Link do vídeo](https://drive.google.com/file/d/1UUmUmJQdtVuI4nAD44XrnVOi4kRT8RwN/view?usp=vids_web)]
