@@ -57,7 +57,7 @@ Documentação dos prompts que definem o comportamento do agente:
 **protótipo funcional** do agente:
 
 - Chatbot interativo (Streamlit)
-- Integração com LLM (via API ou modelo local)
+- Integração com LLM (modelo local)
 - Conexão com a base de conhecimento
 
 📁 **Pasta:** [`src/`](./src/)
