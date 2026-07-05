@@ -1,4 +1,4 @@
-# Pitch (3 minutos)
+# Pitch (4 minutos)
 
 ## Link do Vídeo
 
